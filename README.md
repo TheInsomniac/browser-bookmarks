@@ -15,3 +15,8 @@ Add this script to your cron in order to have it update your bookmarks
 when they change or perhaps further this script with linux' ionotify
 so that it automatically runs when the sqlite database is modified.
 
+Added:
+---
+jquery version as an option to the plain html version.
+Requires the 'js' and 'themes' folder. Additional themes can be downloaded and/or created at
+http://jqueryui.com/themeroller/
