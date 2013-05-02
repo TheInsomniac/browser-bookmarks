@@ -23,7 +23,8 @@ f.write('''
  $(function() {
    $( "#accordion" ).accordion({
     collapsible: true,
-    heightStyle: "fill"
+    heightStyle: "content",
+    active: false
    });
  });
  </script>
