@@ -37,4 +37,6 @@ transfer to a remote host. If 'True' then change the 'scp_username',
 Set use_growl in script to 'True' or 'False' depending on whether you wish to
 be notified by Growl when the script completes it's export. 
 Optionally set 'hostname' and 'password' if sending notifications to a remote
-host.
+host. 
+
+![Screenshot](https://raw.github.com/manxam/firefox-bookmarks/master/screenshot/image.png)
