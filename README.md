@@ -1,9 +1,8 @@
-Firefox Bookmarks
+Firefox / Chrome Bookmarks Export
 ===
 
 Just a simple python script that automatically exports your *nix or OSX
-Firefox bookmarks into prettified HTML. This extracts the data directly
-from the sqlite database so can be done while Firefox is running. 
+Firefox or Chrome/Chromium bookmarks into prettified HTML. 
 
 All "Folders" are headers and the links themselves are lists beneath
 each header. 
@@ -27,8 +26,13 @@ Optional: Growl notification via gntp protocal.
 
 To Use
 ---
+Firefox:  
 Change 'firefox' string in script to the path of your Firefox profiles
 directory.
+
+Chrome/Chromium:  
+Uncomment specific "input_filename" for usage with Chrome or Chromium as
+they use different directory paths (obviously).
 
 Set use_scp in script to 'True' or 'False' depending on whether you want to
 transfer to a remote host. If 'True' then change the 'scp_username',
